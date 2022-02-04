@@ -135,7 +135,7 @@ nav{
 
 .promo .promo_btn{
    display: block;
-   margin: 115px auto;
+   margin: 125px auto;
    width: 259px;
    height: 63px;
    border:none;
@@ -149,4 +149,8 @@ nav{
    text-transform: uppercase;
    color: #FFFFFF;
    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.eight_reasons{
+   height: 848px;
 }
