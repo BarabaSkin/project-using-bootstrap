@@ -155,6 +155,45 @@ nav{
    padding:18px 0 65px 0 ;
 }
 
+.eight_reasons .col-md-2#section2{
+   padding: 0;
+}
+.eight_reasons .col-md-4#section2{
+   padding: 0;
+}
+
+.eight_reasons .advantages_text{
+   display: block;
+   height: 27px;
+   width: 115px;
+   background-color:black;
+   margin: 0 auto;
+   padding-top: 9px;
+
+
+   font-weight: 300;
+   font-size: 11px;
+   line-height: 11px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.eight_reasons .advantages_desc{
+   font-weight: 900;
+   font-size: 38px;
+   line-height: 48px;
+   align-items: center;
+   text-align: center;
+   text-transform: uppercase;
+   color: #222222;
+   margin-top: 32px;
+}
+
+.eight_reasons .reason_block{
+   margin-top: 32px;
+}
+
 
 .eight_reasons .reason_block .reason_round{
    display: flex;
@@ -164,4 +203,9 @@ nav{
    height: 113px;
    background: #1EACC7;
    border-radius:100%;
+}
+
+.eight_reasons .reason_desc{
+   text-align: left;
+   margin-top: 16px;
 }
