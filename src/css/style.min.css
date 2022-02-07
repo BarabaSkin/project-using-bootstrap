@@ -317,7 +317,7 @@ nav {
 .mobile_item_plus {
   width: 29px;
   height: 29px;
-  background: #000000;
+  background: #000000S;
   border-radius: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,5 +334,33 @@ nav {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   cursor: pointer;
+}
+
+.opportunities {
+  height: 900px;
+  background: url("../img/bg.jpg") center center/cover no-repeat;
+  padding-top: 50px;
+}
+
+.opportunities .label_2 {
+  background-color: white;
+  color: black;
+}
+
+.opportunities .title_2 {
+  color: white;
+}
+
+.opportunities .subtitle_2 {
+  color: white;
+}
+
+.opportunities .under_text {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #222222;
+  margin-top: 542px;
 }
 /*# sourceMappingURL=style.min.css.map */
