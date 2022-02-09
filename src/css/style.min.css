@@ -463,4 +463,39 @@ nav {
 .requier .warning .requier_list li::before {
   background: url("../icons/red_checkmark.png") center center/cover no-repeat;
 }
+
+.cities {
+  height: 720px;
+  background: url("../img/map.jpg") center center/cover no-repeat;
+  padding: 47px 0 40px 0;
+}
+
+.cities .label_2 {
+  background-color: white;
+  color: black;
+}
+
+.cities .title_2 {
+  color: white;
+}
+
+.cities_desc {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 6px;
+}
+
+.cities_all {
+  display: block;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 68px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1EACC7;
+  margin-top: 440px;
+}
 /*# sourceMappingURL=style.min.css.map */
