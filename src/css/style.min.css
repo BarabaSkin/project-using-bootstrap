@@ -107,6 +107,11 @@ nav {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
 
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #1EACC7;
+}
+
 .promo {
   height: 800px;
   background: url("../img/uber_bg.jpg") center center/cover no-repeat;
@@ -159,6 +164,11 @@ nav {
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo_btn:hover {
+  background-image: none;
+  background-color: #1EACC7;
 }
 
 .eight_reasons {
@@ -317,7 +327,7 @@ nav {
 .mobile_item_plus {
   width: 29px;
   height: 29px;
-  background: #000000S;
+  background: #000000;
   border-radius: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -336,6 +346,30 @@ nav {
   cursor: pointer;
 }
 
+.mobile_item_plus:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1EACC7;
+}
+
+.mobile_item_plus:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 14px;
+  background-color: #1EACC7;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #FF5656;
+}
+
 .opportunities {
   height: 900px;
   background: url("../img/bg.jpg") center center/cover no-repeat;
@@ -352,6 +386,7 @@ nav {
 }
 
 .opportunities .subtitle_2 {
+  margin-top: 15px;
   color: white;
 }
 
@@ -362,5 +397,70 @@ nav {
   text-align: center;
   color: #222222;
   margin-top: 542px;
+}
+
+.requier {
+  padding: 34px 0 84px 0;
+}
+
+.requier_block {
+  margin: 33px 0;
+  width: 549px;
+}
+
+.requier_block_nbm {
+  margin-bottom: 0px;
+}
+
+.requier_title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #1EACC7;
+}
+
+.requier_list {
+  list-style-type: none;
+  padding-left: 70px;
+  margin-top: 10px;
+}
+
+.requier_list li {
+  font-weight: 300;
+  font-size: 17px;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+.requier_list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  vertical-align: middle;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -35px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/blue_check_mark.png") center center/cover no-repeat;
+}
+
+.requier_desc {
+  width: 460px;
+  font-weight: 300;
+  font-size: 17px;
+  color: #1EACC7;
+}
+
+.requier .warning .requier_title {
+  color: #FF5656;
+}
+
+.requier .warning .requier_list li::before {
+  background: url("../icons/red_checkmark.png") center center/cover no-repeat;
 }
 /*# sourceMappingURL=style.min.css.map */
