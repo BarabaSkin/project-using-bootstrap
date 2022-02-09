@@ -348,8 +348,7 @@ nav
       .requier_list
          li
             &::before
-               background: url('../icons/red_checkmark.png') center center/cover no-repeat
-            
+               background: url('../icons/red_checkmark.png') center center/cover no-repeat  
 
 .cities
    height: 720px  
@@ -371,10 +370,57 @@ nav
       margin-top: 6px
    &_all
       display: block
-      font-weight: normal;
-      font-size: 15px;
-      line-height: 68px;
-      text-align: center;
-      text-transform: uppercase;
-      color: $text_color;
-      margin-top: 440px
+      font-weight: normal
+      font-size: 15px
+      text-align: center
+      text-transform: uppercase
+      color: $text_color
+      margin-top: 450px
+
+.ending
+   height: 149px  
+   &_line
+      display: block
+      margin: 11px auto
+      height: 7px
+      width: 301px  
+      background-color: $text_color
+   &_menu
+      display: flex
+      justify-content: space-around
+      &_elements
+         font-weight: 300
+         font-size: 15px
+         margin-top: 24px
+         align-items: center
+         text-transform: uppercase
+         color: #070716
+      .support
+         font-weight: 300
+         font-size: 11px
+         margin-top: 15px  
+         align-items: center
+         text-transform: uppercase
+         color: #999999
+      &_language
+         font-weight: normal
+         font-size: 11px
+         text-align: center
+         text-transform: uppercase
+         color: $text_color
+         margin-top: 24px
+   &_social
+      position: absolute
+      display: flex
+      top: 48px
+      align-items: center
+      margin-left: 36px
+      &_networks
+         margin-left: 6px
+         width: 35px
+         height: 35px
+         background: #070716
+         border-radius: 100%
+         display: flex
+         justify-content: center
+         align-items: center
