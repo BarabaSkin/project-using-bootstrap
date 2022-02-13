@@ -576,5 +576,15 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: white;
+}
+
+.ending_mobile {
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 20px;
+  top: 54px;
 }
 /*# sourceMappingURL=style.min.css.map */
