@@ -5,7 +5,6 @@
 }
 
 .indent {
-  display: block;
   height: 50px;
   background-color: black;
 }
@@ -277,7 +276,7 @@ nav {
 .mobile {
   height: 864px;
   padding: 48px 0 79px 0;
-  background: url("../img/Подложка.jpg");
+  background: url("../img/Подложка.jpg") center center/cover no-repeat;
 }
 
 .mobile .row {
