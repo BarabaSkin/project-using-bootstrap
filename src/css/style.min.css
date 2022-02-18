@@ -44,6 +44,10 @@ nav {
   padding-right: 44px;
 }
 
+.menu_item:last-child {
+  border-right: none;
+}
+
 .subheader {
   position: absolute;
   z-index: 1;
@@ -585,5 +589,34 @@ nav {
           align-items: center;
   right: 20px;
   top: 54px;
+}
+
+@media (max-width: 1200px) {
+  .menu_item {
+    padding-right: 20px;
+  }
+  .menu_link {
+    font-size: 13px;
+  }
+  .promo_header {
+    font-size: 50px;
+  }
+  .reason_block {
+    padding-left: 10px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .reason_block_right {
+    padding-left: 12px;
+  }
+  .reason_desc {
+    padding: 4px;
+    width: 250px;
+    font-size: 14px;
+  }
+  nav {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.min.css.map */
