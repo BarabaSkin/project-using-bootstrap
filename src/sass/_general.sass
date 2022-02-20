@@ -9,6 +9,10 @@ nav
    position: fixed
    z-index: 2
 
+.hamburger
+   display:none
+      
+
 .menu
    display: flex
    justify-content: space-between
@@ -80,7 +84,6 @@ nav
    color: #FFFFFF
    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
    @include btn_hover
-   
 
 .promo
    height: 800px
@@ -131,7 +134,7 @@ nav
    @include btn_hover
 
 .eight_reasons
-   height: 848px
+   min-height: 848px
    padding: 18px 0 65px 0
 
 .label
@@ -180,6 +183,15 @@ nav
    padding-left: 48px
 
 .reason_block .reason_round, .reason_block_right .reason_round
+   display: flex
+   justify-content: center
+   align-items: center
+   width: 113px
+   height: 113px
+   background: $text_color
+   border-radius: 100%
+
+.reason_round_right
    display: flex
    justify-content: center
    align-items: center

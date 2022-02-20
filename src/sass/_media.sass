@@ -42,3 +42,90 @@
          &_language
             margin-top: 10px
             margin-bottom: 5px
+
+@media (max-width: 991px)
+   .menu
+      padding: 13px 0 0 0px  
+      &_item
+         padding-right: 10px
+   .subheader
+      &_logo
+   .promo
+      &_header
+         margin-top: 70px
+         line-height: 80px   
+      &_btn
+         margin: 40px auto
+   .eight_reasons
+      .col-md-6
+         margin-top: 10px
+         padding: 0
+         padding-right: 15px
+      .reason
+         &_round
+            height: 100px
+            width: 100px
+            margin-top: 24px
+            &_right
+               height: 100px
+               width: 100px
+               margin: 0 auto
+         &_desc
+            margin-top: 0
+         &_subtitle
+            font-size: 16px
+         &_text
+            font-size: 14px
+   .mobile
+      &_item
+         height: 250px
+         width: 240px
+         margin-bottom: 33px
+
+
+
+
+
+@media (max-width: 767px )
+   .menu
+      position: fixed
+      flex-direction: column  
+      justify-content: center
+      align-items: center
+      top: 0
+      left: -100%
+      width: 50%
+      height: 100vh
+      padding: 20px 15px 
+      background-color: rgba(0,0,0, .8)  
+      transition: 0.6s all  
+      &_active
+         left: 0
+      &_item
+         padding-right: 0
+         border: none
+         margin: 10px 0
+      &_link
+         font: sixe 20px
+   .hamburger
+      display: block
+      position: absolute
+      right: 10px
+      top: 20px 
+      width: 26px
+      span
+         display: block
+         height: 2px
+         width: 100%
+         background-color: #fff
+         margin-bottom: 2px
+         transition: 0.5s all
+      &_active
+         span
+            margin-bottom: -2px
+            &:nth-child(1)
+               transform: rotate(-45deg)
+            &:nth-child(2)
+               display: none
+            &:nth-child(3)
+               transform: rotate(45deg)
